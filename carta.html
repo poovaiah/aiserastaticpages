@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aisera AI Platform: Your Bot Brigade Awaits!</title>
+  <link rel="stylesheet" href="style.css"> </head>
+<body>
+<div class="container">
+  <h1>Welcome to the Carta Prod0 Test!<span class="gear">⚙️</span></h1>
+  <h1><p id="date-time"></p></h1>
+  <h1><p>Env | Tenant: Prod0 | Carta </p></h1>
+</div>
+
+<script>
+    // Get current date and time
+    const now = new Date();
+
+    // Update date and time function
+    function updateDateTime() {
+      const dateTimeElement = document.getElementById('date-time');
+      dateTimeElement.textContent = now.toLocaleString();
+    }
+
+    // Update date and time initially
+    updateDateTime();
+
+    // Update date and time every minute (optional, adjust interval)
+    // setInterval(updateDateTime, 60000); // Update every minute
+  </script>
+<script>(function(){var d=document,s=d.createElement('script');s.async=true;s.src='https://carta.chatbot.aisera.cloud/awc/js?t=1b6709cc-fcad-e7c6-02d4-90ef4a70d74a&'+Date.now();d.getElementsByTagName('head')[0].appendChild(s)})();</script>
+</body>
+</html>
